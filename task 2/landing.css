@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+  }
+  
+  header {
+	background-color: #9ba1a5;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+  }
+  
+  header .logo {
+	font-size: 2em;
+	font-weight: bold;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+  }
+  
+  nav ul li {
+	margin: 0 20px;
+  }
+  
+  nav ul li a {
+	color: rgb(70, 19, 19);
+	text-decoration: none;
+	font-size: 1.1em;
+  }
+  
+  #hero {
+	background: url('https://source.unsplash.com/1600x900/?coffee-shop') no-repeat center center/cover;
+	height: 100vh;
+	color: rgb(51, 10, 10);
+	text-align: center;
+	padding-top: 100px;
+  }
+  
+  #hero .hero-content {
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  #hero h1 {
+	font-size: 3em;
+  }
+  
+  .cta-button {
+	background-color: #E74C3C;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 20px;
+  }
+  
+  #about, #menu, #contact {
+	padding: 40px 20px;
+	text-align: center;
+  }
+  
+  #menu .menu-items {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+  }
+  
+  .menu-item {
+	background-color: #caacac;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	width: 30%;
+	text-align: center;
+  }
+  
+  .menu-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+	font-size: 1.5em;
+	margin-top: 10px;
+  }
+  
+  #contact form {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+  }
+  
+  #contact form input, #contact form textarea {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  #contact form button {
+	padding: 10px;
+	background-color: #E74C3C;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  footer {
+	background-color: #3f4852;
+	color: white;
+	text-align: center;
+	padding: 20px;
+  }
